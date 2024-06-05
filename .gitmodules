@@ -1,0 +1,7 @@
+[submodule "cetinboranblog/public"]
+	path = cetinboranblog/public
+	url = https://github.com/cetinboran/cetinboran.github.io.git
+	branch = main
+[submodule "cetinboranblog/themes/gokarna"]
+	path = cetinboranblog/themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
