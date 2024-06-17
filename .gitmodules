@@ -5,3 +5,9 @@
 [submodule "cetinboranblog/themes/gokarna"]
 	path = cetinboranblog/themes/gokarna
 	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "cetinboranblog/themes/hugo-coder"]
+	path = cetinboranblog/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "cetinboranblog/themes/tailwind"]
+	path = cetinboranblog/themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
