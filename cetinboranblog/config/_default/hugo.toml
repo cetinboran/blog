@@ -1,0 +1,59 @@
+baseURL = "https://cetinboran.com.tr/"
+title = "Çetin Boran Mesüm"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+pygmentsStyle = "monokai"
+
+[params]
+  footer = "Çetin Boran Mesüm"
+#   description = "Merhaba! Ben Çetin Boran Mesüm."
+  avatarURL = "/images/author.jpg"
+  AvatarAltText = "Hello"
+  avatarSize = "size-m"
+  ShowBackToTopButton = true
+
+  socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/cetinboran/"},
+    {name = "github", url = "https://github.com/cetinboran"},
+  ]
+  metaKeywords = ["cyber security", "programming"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/cetinboran"
+    weight = 4
+
+   [[menu.main]]
+    identifier = "linkedin"
+    pre = "<span data-feather='linkedin'></span>"
+    url = "https://www.linkedin.com/in/cetinboran/"
+    weight = 45
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false

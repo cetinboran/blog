@@ -3,6 +3,9 @@ title: "Docker Escape"
 date: 2024-05-06T17:55:28+08:00
 description: 'This is Docker 101'
 tags: ["Docker", "Capabilities", "Linux", "Security"]
+categories: [
+    "Privileged",
+]
 type: post
 weight: 45
 showTableOfContents: true
